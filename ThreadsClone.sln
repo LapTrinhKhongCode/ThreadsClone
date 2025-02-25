@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threads.backend", "Threads.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads.API", "Threads.API\Threads.API.csproj", "{CF70402E-C2DF-4E92-B062-E8DCB952B4FF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threads.intergration", "Threads.intergration", "{C433109E-0469-4309-9F20-3288C4AE6940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads.MessageBus", "Threads.MessageBus\Threads.MessageBus.csproj", "{99C64961-E968-4A20-A7B7-C98C6E713988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +23,17 @@ Global
 		{CF70402E-C2DF-4E92-B062-E8DCB952B4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF70402E-C2DF-4E92-B062-E8DCB952B4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF70402E-C2DF-4E92-B062-E8DCB952B4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C64961-E968-4A20-A7B7-C98C6E713988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C64961-E968-4A20-A7B7-C98C6E713988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C64961-E968-4A20-A7B7-C98C6E713988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C64961-E968-4A20-A7B7-C98C6E713988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CF70402E-C2DF-4E92-B062-E8DCB952B4FF} = {35C165A1-3502-432D-8E51-955741E24F5C}
+		{99C64961-E968-4A20-A7B7-C98C6E713988} = {C433109E-0469-4309-9F20-3288C4AE6940}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {814267EE-1241-442B-8E2F-7FF1D0CD1947}
