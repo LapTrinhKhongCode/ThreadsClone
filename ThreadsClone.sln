@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threads.frontend", "Threads.frontend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threads.backend", "Threads.backend", "{35C165A1-3502-432D-8E51-955741E24F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads.API", "Threads.API\Threads.API.csproj", "{CF70402E-C2DF-4E92-B062-E8DCB952B4FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF70402E-C2DF-4E92-B062-E8DCB952B4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF70402E-C2DF-4E92-B062-E8DCB952B4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF70402E-C2DF-4E92-B062-E8DCB952B4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF70402E-C2DF-4E92-B062-E8DCB952B4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF70402E-C2DF-4E92-B062-E8DCB952B4FF} = {35C165A1-3502-432D-8E51-955741E24F5C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {814267EE-1241-442B-8E2F-7FF1D0CD1947}
+	EndGlobalSection
+EndGlobal
