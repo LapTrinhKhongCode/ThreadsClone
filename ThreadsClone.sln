@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35818.85 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threads.frontend", "Threads.frontend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threads.backend", "Threads.backend", "{35C165A1-3502-432D-8E51-955741E24F5C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{35C165A1-3502-432D-8E51-955741E24F5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads.API", "Threads.API\Threads.API.csproj", "{CF70402E-C2DF-4E92-B062-E8DCB952B4FF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threads.intergration", "Threads.intergration", "{C433109E-0469-4309-9F20-3288C4AE6940}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "intergration", "intergration", "{C433109E-0469-4309-9F20-3288C4AE6940}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads.MessageBus", "Threads.MessageBus\Threads.MessageBus.csproj", "{99C64961-E968-4A20-A7B7-C98C6E713988}"
 EndProject
